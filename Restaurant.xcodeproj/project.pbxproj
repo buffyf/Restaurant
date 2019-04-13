@@ -19,6 +19,7 @@
 		A457179C2262851F00B66E01 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457179B2262851F00B66E01 /* MenuItem.swift */; };
 		A457179E226287DC00B66E01 /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457179D226287DC00B66E01 /* IntermediaryModels.swift */; };
 		A45717A02262886400B66E01 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457179F2262886400B66E01 /* Order.swift */; };
+		A45717A2226288F900B66E01 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45717A1226288F900B66E01 /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A457179B2262851F00B66E01 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		A457179D226287DC00B66E01 /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
 		A457179F2262886400B66E01 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A45717A1226288F900B66E01 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				A457179B2262851F00B66E01 /* MenuItem.swift */,
 				A457179D226287DC00B66E01 /* IntermediaryModels.swift */,
 				A457179F2262886400B66E01 /* Order.swift */,
+				A45717A1226288F900B66E01 /* MenuController.swift */,
 				A4571799226283B300B66E01 /* MenuItemDetailViewController.swift */,
 				A45717932262813800B66E01 /* CategoryTableViewController.swift */,
 				A45717952262814B00B66E01 /* MenuTableViewController.swift */,
@@ -156,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45717A2226288F900B66E01 /* MenuController.swift in Sources */,
 				A457179C2262851F00B66E01 /* MenuItem.swift in Sources */,
 				A45717962262814B00B66E01 /* MenuTableViewController.swift in Sources */,
 				A457179A226283B300B66E01 /* MenuItemDetailViewController.swift in Sources */,
