@@ -12,6 +12,10 @@
 		A457178722626AF000B66E01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A457178522626AF000B66E01 /* Main.storyboard */; };
 		A457178922626AF200B66E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A457178822626AF200B66E01 /* Assets.xcassets */; };
 		A457178C22626AF200B66E01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A457178A22626AF200B66E01 /* LaunchScreen.storyboard */; };
+		A45717942262813800B66E01 /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45717932262813800B66E01 /* CategoryTableViewController.swift */; };
+		A45717962262814B00B66E01 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45717952262814B00B66E01 /* MenuTableViewController.swift */; };
+		A45717982262816100B66E01 /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45717972262816100B66E01 /* OrderTableViewController.swift */; };
+		A457179A226283B300B66E01 /* MenuItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4571799226283B300B66E01 /* MenuItemDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		A457178822626AF200B66E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A457178B22626AF200B66E01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A457178D22626AF200B66E01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A45717932262813800B66E01 /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		A45717952262814B00B66E01 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		A45717972262816100B66E01 /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		A4571799226283B300B66E01 /* MenuItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +65,10 @@
 				A457178122626AF000B66E01 /* AppDelegate.swift */,
 				A457178322626AF000B66E01 /* ViewController.swift */,
 				A457178522626AF000B66E01 /* Main.storyboard */,
+				A4571799226283B300B66E01 /* MenuItemDetailViewController.swift */,
+				A45717932262813800B66E01 /* CategoryTableViewController.swift */,
+				A45717952262814B00B66E01 /* MenuTableViewController.swift */,
+				A45717972262816100B66E01 /* OrderTableViewController.swift */,
 				A457178822626AF200B66E01 /* Assets.xcassets */,
 				A457178A22626AF200B66E01 /* LaunchScreen.storyboard */,
 				A457178D22626AF200B66E01 /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A45717962262814B00B66E01 /* MenuTableViewController.swift in Sources */,
+				A457179A226283B300B66E01 /* MenuItemDetailViewController.swift in Sources */,
+				A45717982262816100B66E01 /* OrderTableViewController.swift in Sources */,
 				A457178422626AF000B66E01 /* ViewController.swift in Sources */,
 				A457178222626AF000B66E01 /* AppDelegate.swift in Sources */,
+				A45717942262813800B66E01 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
