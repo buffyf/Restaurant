@@ -18,12 +18,23 @@ class MenuTableViewController: UITableViewController {
         super.viewDidLoad()
 
      title = category.capitalized
-        menuController.fetchMenuItems(forCategory: category) { (menuItems) in
+        MenuController.shared.fetchMenuItems(forCategory: category) { (menuItems) in
             if let menuItems = menuItems {
                 self.updateUI(with: menuItems)
             }
         }
     }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        if segue.identifier == "MenuDetailSegue" {
+            let menuItemDetailViewController = segue.destination
+                as! MenuItemDetailViewController
+            let index = tableView.indexPathForSelectedRow!.row
+            menuItemDetailViewController.menuItem = menuItems[index]
+        }
+    }
+    
     
     func updateUI(with menuItems: [MenuItem]) {
         DispatchQueue.main.async {
@@ -34,10 +45,10 @@ class MenuTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        // #warning Incomplete implementation, return the number of sections
-//        return 0
-//    }
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
+    }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return menuItems.count
