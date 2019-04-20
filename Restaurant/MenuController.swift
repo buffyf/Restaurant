@@ -7,13 +7,20 @@
 //
 
 import Foundation
+import UIKit
 
 class MenuController {
   static let shared = MenuController()
     
+    static let orderUpdateNotification = Notification.Name("MenuController.orderUpdated")
+    
     let baseURL = URL(string: "http://localhost:8090/")!
-
-
+    var order = Order() {
+        didSet {
+            NotificationCenter.default.post(name: MenuController.orderUpdateNotification, object: nil)
+        }
+    }
+    
 func fetchCategories(completion: @escaping ([String]?) -> Void) {
     let categoryURL = baseURL.appendingPathComponent("categories")
     let task = URLSession.shared.dataTask(with: categoryURL)
@@ -74,4 +81,15 @@ func fetchMenuItems(forCategory categoryName: String, completion: @escaping ([Me
     }
     task.resume()
 }
+    
+    func fetchImage(url: URL, completion: @escaping (UIImage?) -> Void) {
+        let task = URLSession.shared.dataTask(with: url) { (data, _, _) in
+            if let data = data, let image = UIImage(data: data) {
+                completion(image)
+            } else {
+                completion(nil)
+            }
+        }
+        task.resume()
+    }
 }

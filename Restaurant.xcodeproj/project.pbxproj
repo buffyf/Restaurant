@@ -20,6 +20,7 @@
 		A457179E226287DC00B66E01 /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457179D226287DC00B66E01 /* IntermediaryModels.swift */; };
 		A45717A02262886400B66E01 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A457179F2262886400B66E01 /* Order.swift */; };
 		A45717A2226288F900B66E01 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45717A1226288F900B66E01 /* MenuController.swift */; };
+		A45717A42268AA1F00B66E01 /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45717A32268AA1F00B66E01 /* OrderConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		A457179D226287DC00B66E01 /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
 		A457179F2262886400B66E01 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		A45717A1226288F900B66E01 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		A45717A32268AA1F00B66E01 /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				A457178122626AF000B66E01 /* AppDelegate.swift */,
 				A457178322626AF000B66E01 /* ViewController.swift */,
 				A457178522626AF000B66E01 /* Main.storyboard */,
+				A45717A32268AA1F00B66E01 /* OrderConfirmationViewController.swift */,
 				A457179B2262851F00B66E01 /* MenuItem.swift */,
 				A457179D226287DC00B66E01 /* IntermediaryModels.swift */,
 				A457179F2262886400B66E01 /* Order.swift */,
@@ -168,6 +171,7 @@
 				A457179E226287DC00B66E01 /* IntermediaryModels.swift in Sources */,
 				A457178422626AF000B66E01 /* ViewController.swift in Sources */,
 				A457178222626AF000B66E01 /* AppDelegate.swift in Sources */,
+				A45717A42268AA1F00B66E01 /* OrderConfirmationViewController.swift in Sources */,
 				A45717942262813800B66E01 /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
